@@ -1,0 +1,35 @@
+{
+  "name": "promise-xhr",
+  "version": "1.0.0",
+  "description": "Wrapper for the XHR package",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production webpack",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjarneo/promise-xhr.git"
+  },
+  "keywords": [
+    "xhr",
+    "xdr",
+    "promise",
+    "wrapper",
+    "ie8"
+  ],
+  "author": "Bjarne Oeverli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bjarneo/promise-xhr/issues"
+  },
+  "homepage": "https://github.com/bjarneo/promise-xhr#readme",
+  "dependencies": {
+    "xhr": "^2.2.2"
+  },
+  "devDependencies": {
+    "google-closure-compiler-js": "^20161024.0.0",
+    "webpack": "^1.13.3"
+  }
+}
