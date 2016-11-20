@@ -24,7 +24,7 @@ const options = {};
 
 // Basic get request
 xhr(api)
-    .then((res, body) => console.log(res, body))
+    .then(res => console.log(res))
     .catch(err => console.error(err));
 
 // With options
@@ -32,7 +32,7 @@ xhr(api, {
     method: 'POST',
     useXDR: true
 })
-    .then((res, body) => console.log(res, body))
+    .then(res => console.log(res)
     .catch(err => console.error(err));
 
 // Available methods: get, post, put, patch, del, head
