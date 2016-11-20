@@ -11,7 +11,7 @@ function promisify(url, options) {
 
     return new Promise((resolve, reject) => xhrRequest(
         options,
-        (err, res, body) => err ? reject(err) : resolve(res, body)
+        (err, res, body) => err ? reject(err) : resolve(res)
     ));
 }
 
